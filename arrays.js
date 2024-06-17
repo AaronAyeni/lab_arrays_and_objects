@@ -46,8 +46,8 @@ console.log("The third station is " + thirdStation);
  * Q5.
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
-
-// console.log(stations);
+stations[stations.indexOf("North Berwick")] = "Berwick-upon-Tweed";
+console.log(stations);
 
 
 
