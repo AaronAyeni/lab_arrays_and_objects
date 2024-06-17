@@ -64,8 +64,8 @@ console.log(stations);
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
-
-// console.log(stations);
+stations.splice(stations.indexOf("York"), 0, "Darlington");
+console.log(stations);
 
 
 
@@ -74,9 +74,8 @@ console.log(stations);
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
-
-// console.log(stoppingAtDurham);
+stoppingAtDurham = stations.includes("Durham");
+console.log(stoppingAtDurham);
 
 
 /**
