@@ -50,9 +50,9 @@ tortoise.age += 1;
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = null;
+dogColourCount = dog.colours.length;
 
-// console.log("The dog has " + dogColourCount + " different colours");
+console.log("The dog has " + dogColourCount + " different colours");
 
 /**
  * Q5. I've just bought a 12-year-old African Grey parrot called Lucky. Create an object for her.
