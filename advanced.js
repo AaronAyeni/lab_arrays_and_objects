@@ -48,7 +48,8 @@ console.log(wales);
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
+northernIreland = unitedKingdom.find(country => country.name === "Northern Ireland");
+northernIrelandKeys = Object.keys(northernIreland);
 console.log(northernIrelandKeys);
 
 /**
